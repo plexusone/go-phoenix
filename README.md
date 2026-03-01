@@ -310,10 +310,10 @@ go test -v ./llmops/
 
 MIT License - see [LICENSE](LICENSE) for details.
 
- [build-status-svg]: https://github.com/plexusone/phoenix-go/actions/workflows/ci.yaml/badge.svg?branch=main
- [build-status-url]: https://github.com/plexusone/phoenix-go/actions/workflows/ci.yaml
- [lint-status-svg]: https://github.com/plexusone/phoenix-go/actions/workflows/lint.yaml/badge.svg?branch=main
- [lint-status-url]: https://github.com/plexusone/phoenix-go/actions/workflows/lint.yaml
+ [build-status-svg]: https://github.com/plexusone/phoenix-go/actions/workflows/go-ci.yaml/badge.svg?branch=main
+ [build-status-url]: https://github.com/plexusone/phoenix-go/actions/workflows/go-ci.yaml
+ [lint-status-svg]: https://github.com/plexusone/phoenix-go/actions/workflows/go-lint.yaml/badge.svg?branch=main
+ [lint-status-url]: https://github.com/plexusone/phoenix-go/actions/workflows/go-lint.yaml
  [goreport-svg]: https://goreportcard.com/badge/github.com/plexusone/phoenix-go
  [goreport-url]: https://goreportcard.com/report/github.com/plexusone/phoenix-go
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/plexusone/phoenix-go
