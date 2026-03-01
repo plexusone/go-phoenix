@@ -290,7 +290,7 @@ go-phoenix/
 **1. Standalone (no omniobserve dependency):**
 
 ```go
-import "github.com/agentplexus/go-phoenix"
+import "github.com/plexusone/phoenix-go"
 
 client, err := phoenix.NewClient(
     phoenix.WithURL("http://localhost:6006"),
@@ -303,8 +303,8 @@ projects, _, _ := client.ListProjects(ctx)
 
 ```go
 import (
-    "github.com/agentplexus/omniobserve/llmops"
-    _ "github.com/agentplexus/go-phoenix/llmops"  // Register provider
+    "github.com/plexusone/omniobserve/llmops"
+    _ "github.com/plexusone/phoenix-go/llmops"  // Register provider
 )
 
 provider, err := llmops.Open("phoenix",

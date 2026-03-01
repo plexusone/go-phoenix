@@ -6,10 +6,10 @@
 // # Usage
 //
 //	import (
-//	    "github.com/agentplexus/go-phoenix"
-//	    "github.com/agentplexus/go-phoenix/evals"
-//	    "github.com/agentplexus/omniobserve/llmops"
-//	    "github.com/agentplexus/omniobserve/llmops/metrics"
+//	    "github.com/plexusone/phoenix-go"
+//	    "github.com/plexusone/phoenix-go/evals"
+//	    "github.com/plexusone/omniobserve/llmops"
+//	    "github.com/plexusone/omniobserve/llmops/metrics"
 //	)
 //
 //	// Create Phoenix client
@@ -30,9 +30,9 @@ import (
 	"context"
 	"time"
 
-	phoenix "github.com/agentplexus/go-phoenix"
-	"github.com/agentplexus/go-phoenix/internal/api"
-	"github.com/agentplexus/omniobserve/llmops"
+	"github.com/plexusone/omniobserve/llmops"
+	phoenix "github.com/plexusone/phoenix-go"
+	"github.com/plexusone/phoenix-go/internal/api"
 )
 
 // Evaluator implements llmops.Evaluator for Phoenix.

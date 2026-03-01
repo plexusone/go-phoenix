@@ -3,7 +3,7 @@ package phoenix
 import (
 	"context"
 
-	"github.com/agentplexus/go-phoenix/internal/api"
+	"github.com/plexusone/phoenix-go/internal/api"
 )
 
 // Prompt represents a Phoenix prompt.

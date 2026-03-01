@@ -40,7 +40,7 @@ type Config struct {
 	ProjectName string
 
 	// APIKey is the API key for authentication.
-	APIKey string
+	APIKey string //nolint:gosec // G117: OTEL config needs API key field
 
 	// Headers are additional headers to send with requests.
 	Headers map[string]string

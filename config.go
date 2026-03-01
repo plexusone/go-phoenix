@@ -35,7 +35,7 @@ type Config struct {
 
 	// APIKey is the API key for authentication.
 	// Optional for local instances, may be required for hosted instances.
-	APIKey string
+	APIKey string //nolint:gosec // G117: SDK config needs API key field
 
 	// ProjectName is the default project name for operations.
 	ProjectName string

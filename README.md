@@ -12,7 +12,7 @@ Go SDK for [Arize Phoenix](https://phoenix.arize.com/) - an open-source observab
 ## Installation
 
 ```bash
-go get github.com/agentplexus/go-phoenix
+go get github.com/plexusone/phoenix-go
 ```
 
 ## Quick Start
@@ -26,7 +26,7 @@ import (
     "context"
     "log"
 
-    phoenixotel "github.com/agentplexus/go-phoenix/otel"
+    phoenixotel "github.com/plexusone/phoenix-go/otel"
     "go.opentelemetry.io/otel/trace"
 )
 
@@ -67,7 +67,7 @@ import (
     "context"
     "log"
 
-    phoenix "github.com/agentplexus/go-phoenix"
+    phoenix "github.com/plexusone/phoenix-go"
 )
 
 func main() {
@@ -119,11 +119,11 @@ import (
     "fmt"
     "os"
 
-    phoenix "github.com/agentplexus/go-phoenix"
-    "github.com/agentplexus/go-phoenix/evals"
-    "github.com/agentplexus/omniobserve/llmops"
-    "github.com/agentplexus/omniobserve/llmops/metrics"
-    "github.com/agentplexus/omnillm"
+    phoenix "github.com/plexusone/phoenix-go"
+    "github.com/plexusone/phoenix-go/evals"
+    "github.com/plexusone/omniobserve/llmops"
+    "github.com/plexusone/omniobserve/llmops/metrics"
+    "github.com/plexusone/omnillm"
 )
 
 func main() {
@@ -232,12 +232,12 @@ The `otel` package provides constants for OpenInference span kinds:
 
 ## Integration with omniobserve
 
-go-phoenix can be used as a provider for [omniobserve](https://github.com/agentplexus/omniobserve):
+go-phoenix can be used as a provider for [omniobserve](https://github.com/plexusone/omniobserve):
 
 ```go
 import (
-    "github.com/agentplexus/omniobserve/llmops"
-    _ "github.com/agentplexus/go-phoenix/llmops" // Register provider
+    "github.com/plexusone/omniobserve/llmops"
+    _ "github.com/plexusone/phoenix-go/llmops" // Register provider
 )
 
 func main() {
@@ -310,19 +310,19 @@ go test -v ./llmops/
 
 MIT License - see [LICENSE](LICENSE) for details.
 
- [build-status-svg]: https://github.com/agentplexus/go-phoenix/actions/workflows/ci.yaml/badge.svg?branch=main
- [build-status-url]: https://github.com/agentplexus/go-phoenix/actions/workflows/ci.yaml
- [lint-status-svg]: https://github.com/agentplexus/go-phoenix/actions/workflows/lint.yaml/badge.svg?branch=main
- [lint-status-url]: https://github.com/agentplexus/go-phoenix/actions/workflows/lint.yaml
- [goreport-svg]: https://goreportcard.com/badge/github.com/agentplexus/go-phoenix
- [goreport-url]: https://goreportcard.com/report/github.com/agentplexus/go-phoenix
- [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/agentplexus/go-phoenix
- [docs-godoc-url]: https://pkg.go.dev/github.com/agentplexus/go-phoenix
+ [build-status-svg]: https://github.com/plexusone/phoenix-go/actions/workflows/ci.yaml/badge.svg?branch=main
+ [build-status-url]: https://github.com/plexusone/phoenix-go/actions/workflows/ci.yaml
+ [lint-status-svg]: https://github.com/plexusone/phoenix-go/actions/workflows/lint.yaml/badge.svg?branch=main
+ [lint-status-url]: https://github.com/plexusone/phoenix-go/actions/workflows/lint.yaml
+ [goreport-svg]: https://goreportcard.com/badge/github.com/plexusone/phoenix-go
+ [goreport-url]: https://goreportcard.com/report/github.com/plexusone/phoenix-go
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/plexusone/phoenix-go
+ [docs-godoc-url]: https://pkg.go.dev/github.com/plexusone/phoenix-go
  [viz-svg]: https://img.shields.io/badge/visualizaton-Go-blue.svg
- [viz-url]: https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=grokify%2Fgo-phoenix
+ [viz-url]: https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=plexusone%2Fphoenix-go
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
- [license-url]: https://github.com/agentplexus/go-phoenix/blob/master/LICENSE
- [used-by-svg]: https://sourcegraph.com/github.com/agentplexus/go-phoenix/-/badge.svg
- [used-by-url]: https://sourcegraph.com/github.com/agentplexus/go-phoenix?badge
- [version-svg]: https://img.shields.io/github/v/release/agentplexus/go-phoenix
- [version-url]: https://github.com/agentplexus/go-phoenix/releases
+ [license-url]: https://github.com/plexusone/phoenix-go/blob/master/LICENSE
+ [used-by-svg]: https://sourcegraph.com/github.com/plexusone/phoenix-go/-/badge.svg
+ [used-by-url]: https://sourcegraph.com/github.com/plexusone/phoenix-go?badge
+ [version-svg]: https://img.shields.io/github/v/release/plexusone/phoenix-go
+ [version-url]: https://github.com/plexusone/phoenix-go/releases

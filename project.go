@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/agentplexus/go-phoenix/internal/api"
+	"github.com/plexusone/phoenix-go/internal/api"
 )
 
 // Project represents a Phoenix project.

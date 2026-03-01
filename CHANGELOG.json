@@ -1,10 +1,23 @@
 {
-  "ir_version": "1.0",
-  "project": "go-phoenix",
-  "repository": "https://github.com/agentplexus/go-phoenix",
+  "irVersion": "1.0",
+  "project": "phoenix-go",
+  "repository": "https://github.com/plexusone/phoenix-go",
   "versioning": "semver",
-  "commit_convention": "conventional",
+  "commitConvention": "conventional",
   "releases": [
+    {
+      "version": "0.2.0",
+      "date": "2026-03-01",
+      "highlights": [
+        { "description": "Organization rename from agentplexus to plexusone and repo rename from go-phoenix to phoenix-go" }
+      ],
+      "changed": [
+        { "description": "**Breaking**: Module path changed from `github.com/agentplexus/go-phoenix` to `github.com/plexusone/phoenix-go`" }
+      ],
+      "dependencies": [
+        { "description": "Upgraded `github.com/plexusone/omniobserve` from v0.5.0 to v0.7.0" }
+      ]
+    },
     {
       "version": "0.1.1",
       "date": "2026-01-17",

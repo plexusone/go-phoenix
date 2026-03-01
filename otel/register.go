@@ -5,7 +5,7 @@
 //
 // # Quick Start
 //
-//	import "github.com/agentplexus/go-phoenix/otel"
+//	import "github.com/plexusone/phoenix-go/otel"
 //
 //	func main() {
 //		// Register with Phoenix (sends traces to localhost:6006)

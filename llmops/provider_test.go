@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	phoenix "github.com/agentplexus/go-phoenix"
-	_ "github.com/agentplexus/go-phoenix/llmops"
-	"github.com/agentplexus/omniobserve/llmops"
+	"github.com/plexusone/omniobserve/llmops"
+	phoenix "github.com/plexusone/phoenix-go"
+	_ "github.com/plexusone/phoenix-go/llmops"
 )
 
 // testConfig holds configuration for integration tests.
 type testConfig struct {
-	APIKey   string
+	APIKey   string //nolint:gosec // G117: Test config needs API key field
 	Endpoint string
 	SpaceID  string
 }

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	phoenixotel "github.com/agentplexus/go-phoenix/otel"
-	"github.com/agentplexus/omniobserve/llmops"
+	"github.com/plexusone/omniobserve/llmops"
+	phoenixotel "github.com/plexusone/phoenix-go/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )

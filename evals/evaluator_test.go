@@ -3,8 +3,8 @@ package evals
 import (
 	"testing"
 
-	"github.com/agentplexus/go-phoenix/internal/api"
-	"github.com/agentplexus/omniobserve/llmops"
+	"github.com/plexusone/omniobserve/llmops"
+	"github.com/plexusone/phoenix-go/internal/api"
 )
 
 // mockMetric is a test metric implementation.

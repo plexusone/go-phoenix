@@ -11,7 +11,7 @@ package phoenix
 import (
 	"net/http"
 
-	"github.com/agentplexus/go-phoenix/internal/api"
+	"github.com/plexusone/phoenix-go/internal/api"
 )
 
 // Version is the SDK version.
@@ -80,7 +80,7 @@ func (c *authHTTPClient) Do(req *http.Request) (*http.Response, error) {
 	req.Header.Set("X-Phoenix-SDK-Version", Version)
 	req.Header.Set("X-Phoenix-SDK-Lang", "go")
 
-	return c.client.Do(req)
+	return c.client.Do(req) //nolint:gosec // G704: URL is configured by SDK user
 }
 
 // Config returns the client configuration.

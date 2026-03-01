@@ -2,7 +2,7 @@
 //
 // Import this package to register the Phoenix provider:
 //
-//	import _ "github.com/agentplexus/go-phoenix/llmops"
+//	import _ "github.com/plexusone/phoenix-go/llmops"
 //
 // Then open it:
 //
@@ -17,9 +17,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/agentplexus/go-phoenix"
-	phoenixotel "github.com/agentplexus/go-phoenix/otel"
-	"github.com/agentplexus/omniobserve/llmops"
+	"github.com/plexusone/omniobserve/llmops"
+	"github.com/plexusone/phoenix-go"
+	phoenixotel "github.com/plexusone/phoenix-go/otel"
 	"go.opentelemetry.io/otel/trace"
 )
 
