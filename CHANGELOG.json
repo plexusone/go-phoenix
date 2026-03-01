@@ -6,27 +6,27 @@
   "commitConvention": "conventional",
   "releases": [
     {
-      "version": "0.2.0",
+      "version": "v0.2.0",
       "date": "2026-03-01",
       "highlights": [
         { "description": "Organization rename from agentplexus to plexusone and repo rename from go-phoenix to phoenix-go" }
       ],
       "changed": [
-        { "description": "**Breaking**: Module path changed from `github.com/agentplexus/go-phoenix` to `github.com/plexusone/phoenix-go`" }
+        { "description": "**Breaking**: Module path changed from `github.com/agentplexus/go-phoenix` to `github.com/plexusone/phoenix-go`", "commit": "6ee520a" }
       ],
       "dependencies": [
-        { "description": "Upgraded `github.com/plexusone/omniobserve` from v0.5.0 to v0.7.0" }
+        { "description": "Upgraded `github.com/plexusone/omniobserve` from v0.5.0 to v0.7.0", "commit": "6ee520a" }
       ]
     },
     {
-      "version": "0.1.1",
+      "version": "v0.1.1",
       "date": "2026-01-17",
       "changed": [
         { "description": "Updated Go module dependencies", "commit": "aacc260" }
       ]
     },
     {
-      "version": "0.1.0",
+      "version": "v0.1.0",
       "date": "2026-01-04",
       "added": [
         { "description": "OpenTelemetry integration (`otel` package) with OTLP HTTP exporter", "commit": "bcd0e2f" },
